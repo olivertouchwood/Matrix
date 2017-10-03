@@ -1,0 +1,2 @@
+# Matrix
+This simple app builds a matrix of defferently colored cubes taking the number of rows and columns you specify. When hovering over a cube, it's color will be show. By clicking a cube, you will trigger a friendly alert :) Click on "Destroy the matrix" if you are cruel enough.
