@@ -1,0 +1,56 @@
+td {
+	width: 20px;
+	height: 20px;
+}
+
+.bc-orange {
+	background-color: #ed7d31;
+}
+ .bc-violet {
+ 	background-color: #7030a0;
+ }
+  .bc-green {
+ 	background-color: #92d14f;
+ }
+  .bc-cyan {
+ 	background-color: #01b0f1;
+ }
+  .bc-yellow {
+ 	background-color: #ffff00;
+ }
+  .bc-blue {
+ 	background-color: #0071c1;
+ }
+  .bc-red {
+ 	background-color: #fe0000;
+ }
+
+ /* The actual popup */
+.popup {
+    width: 60px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    top: -40px;
+    left: -30px;
+    margin-left: 50%;
+}
+
+.popup::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+td {
+	position: relative;
+}
